@@ -12,8 +12,19 @@
 body {
   background-image: url("sariked3.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center center;
+ 
   /* İsteğe bağlı olarak background-position ayarlarını yapabilirsiniz */
+}
+
+@media (max-width: 1000px) {
+  /* Ekran boyutu 768 pikselden küçük olan cihazlar için stil kuralları */
+  body {
+   align-items: center;
+   text-align: center;
+    background-size:1000px;
+    /* Arka plan resmini daha küçük bir boyutta göstermek için */
+  }
 }
         
       </style>
@@ -24,3 +35,4 @@ body {
       <link rel="stylesheet" href="style.css">
    </body>
 </html>
+

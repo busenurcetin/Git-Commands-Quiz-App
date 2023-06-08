@@ -151,7 +151,7 @@ let quiz_questions = [
             "Lokal bilgisayarda yaptığımız değişiklikleri uzak sunucudaki bir Git deposuna yüklememizi sağlayan bir Git komutudur.",
         ],
         // correct option (1,2,3,4 etc)
-        answer: 2,
+        answer: 1,
     //    selected_answer:null
     },
     {
@@ -202,7 +202,7 @@ let quiz_questions = [
             "Commit mesajını ilk kez yazmak için kullanılır.",
         ],
         // correct option (1,2,3,4 etc)
-        answer: 2,
+        answer: 1,
     //    selected_answer:null
     },
     {
